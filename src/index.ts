@@ -38,6 +38,7 @@ app.use(express.json());
 app.listen(PORT, () => {
 	console.log(`Listening on port ${PORT}`);
 
+<<<<<<< HEAD
 	let QuantidadeDeAluno = readlinesync.question("quantos alunos são?\n");
 
 	for (let index = 1; index <= QuantidadeDeAluno; index++) {
@@ -56,3 +57,10 @@ app.listen(PORT, () => {
 	updateAluno(id,nome)
 	getAluno()
 });
+=======
+
+	// CÓDIGO PARA ATENDER OS REQUERIMENTOS
+	// R01, R02, R03, R04, R05
+	
+});
+>>>>>>> b9473de7159b8defdb0c72d8196bba7a05c91f4d
